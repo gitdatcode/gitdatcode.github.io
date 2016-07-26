@@ -1,0 +1,37 @@
+body{
+    background-color: #232323;
+    color: white;
+    padding-top: 50px;
+}
+.nav{
+    background-color: #232323;
+}
+
+.nav a{
+    color: white;
+}
+.container{
+    width: 100%;
+}
+#intro{
+    height: 100vh;
+}
+
+#intro h1{
+    vertical-align: middle;
+}
+
+
+#more-info{
+    height: 50vh;
+    text-align: center;
+}
+
+#pillar-section{
+    height: 60vh;
+    padding: 20px 0;
+}
+
+#words{
+    padding: 0 10px;
+}

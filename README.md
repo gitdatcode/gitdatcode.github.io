@@ -6,16 +6,16 @@ Anyone from the community can contribute! Make sure your changes are well docume
 (coding guidelines to come.)
 
 ### version 1.0
-    This is the initial version. Just a one page site, giving insight to the three pillars of DatCode:
-       * sharing
-       * collaboration
-       * conversation
-    
-    ...and a contact section at the bottom.
+This is the initial version. Just a one page site, giving insight to the three pillars of DatCode:
+   * sharing
+   * collaboration
+   * conversation
+
+...and a contact section at the bottom.
     
 ### new features
-    We'll keep a running list of features we'd like to add to the site.
-        * [] calendar (to be used for events)
-        * [] newsletter sign-up (tentative; should we decide to make one)
+We'll keep a running list of features we'd like to add to the site.
+    * [] calendar (to be used for events)
+    * [] newsletter sign-up (tentative; should we decide to make one)
         
    

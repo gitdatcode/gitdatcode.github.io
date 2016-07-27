@@ -1,5 +1,5 @@
 # #DatCode | a coding community
-### this is a repository for DatCode's portal to the world. (the website.)
+## this is a repository for DatCode's portal to the world. (the website.)
 
 Anyone from the community can contribute! Make sure your changes are well documented, and make sure you follow the guidelines as to keep the code clean and readable.
 

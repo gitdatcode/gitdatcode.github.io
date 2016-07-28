@@ -15,6 +15,7 @@ This is the initial version. Just a one page site, giving insight to the three p
 We'll keep a running list of features we'd like to add to the site.
 - [ ] calendar (to be used for events)
 - [ ] newsletter sign-up (tentative; should we decide to make one)
+- [ ] ticker for number of Slack members, #DatCode mentions on Twitter and Facebook
 
 
 ### coding guidelines

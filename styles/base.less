@@ -1,18 +1,13 @@
 body{
     background-color: #232323;
     color: white;
-    padding-top: 70px;
 }
 
 .nav{
     color: white;
-    font-size: 1.15em;
-
+    font-size: 1.25em;
 }
 
-#mission{
-    color: darkgray;
-}
 #share-link{
     color: #9F064F;
 }
@@ -29,16 +24,29 @@ body{
     color: #69bf8e;
 }
 
-#intro{
+.intro{
+    padding: 0;
     height: 100vh;
-}
-
-#intro{
+    background-image: url("../images/head.jpg");
+    background-size: 100% auto;
     
-    h1{
-    height: 100%;
-    padding: 30px auto 0 auto;
+    @media screen and (max-width: 1467px )
+ {
+        background-image: url("../images/head.jpg");
+         background-size: auto 100%;
+         background-position: center;
+     }
+    
+    .mission{
+        height: 100vh;
+        background: rgba(0,0,0, 0.5);
+        
+        h1{
+        margin: auto 0;
+        padding: 20% 0 20% 30px;
+        }
     }
+
 }
 
 .pillar-section{
@@ -66,4 +74,10 @@ body{
     button{
         margin: 0;
     }
+}
+
+.photo{ 
+    height: 40%;
+    background-image: url("../images/share.jpg");
+    background-color: transparent;
 }

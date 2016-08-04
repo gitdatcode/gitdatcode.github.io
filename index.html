@@ -2,10 +2,11 @@
 <html>
     <head>
         <title>#DatCode | a coding community</title>
-        <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet/less" type="text/css" href="styles/base.less"/>
         <script type="text/javascript" src="scripts/less.min.js"></script>
         <script type="text/javascript" src="scripts/jquery-2.1.4.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="scripts/script.js"></script>
         <script src="https://use.fontawesome.com/1fc0e69d37.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,58 +14,77 @@
     <body>
         <nav class="nav navbar-fixed-top navbar-inverse">
             <div class="container-fluid">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#share"><span id="text">share</span></a></li>
-                    <li><a href="#converse"><span id="text">converse</span></a></li>
-                    <li><a href="#collab"><span id="text">collaborate</span></a></li>
-                    <li><a id="join-btn" href="#join"><button type="button" class="btn btn-default navbar-btn">Join in!</button></a></li>
-                </ul>
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list" aria-expanded="false">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>    
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="$(datcode)"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="nav-list">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#mission">Why?</a></li>
+                        <li><a href="#pillars">What?</a></li>
+                        <li><a href="#join">How?</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="intro">
-            <div class="mission">
-            <h1><p>$(datcode) is a community made of Black and POC coders<br>
-                serving as a place of sharing, collaboration, and plain ol' conversation.<br>
-                We want to make ourselves more visible, for our sake and others.</p>
-                <br>
-            <p>Because coding is fun; you should get into it.</p></h1>
+            <div class="container">
+                <h1>Welcome to the <br>Black Engineer Strike Force</h1>
             </div>
         </div>
-        <div id="pillars">
-            <div id="share" class="photo"></div>
-            <div class="container pillar-section">
-                <div id="words" class="col-md-12">
-                    <h1>.share()</h1>
-                    <h3>Sharing of knowledge is a big part of the community. Through our workshops, our <a href="http://bit.ly/datcodeslack">Slack group</a> discussions, or simply adding #DatCode to a tweet, there's a place for you to ask questions or share what you know. We're open to beginners and experts alike.</h3>
-                    <i class="fa fa-book fa-5x"></i>
+            <div id="mission" class="mission">
+                <div class="container">
+                    <h1>DatCode is a community made of Black and POC coders
+                        serving as a place to share knowledge, collaborate, and meet new people.<br><br>
+                        We want to make ourselves more visible, for our sake and others; because coding is fun. You should get into it.</h1>
                 </div>
             </div>
-            <div id="converse" class="container pillar-section">
-                <div id="photo" class="col-md-12"></div>
-                <div id="words" class="col-md-12">
-                    <h1>.converse()</h1>
-                    <h3>As much as we're the same, we're different. Meet people from your area at our socials, or chop it up amongst the community in our <a href="http://bit.ly/datcodeslack">Slack group</a>. Whatever you want to talk about, it's open for discussion. </h3>
-                    <i class="fa fa-comments fa-5x"></i>
+        <div class="pillars-section">
+            <div class="img"></div>
+            <div id="pillars" class="container pillars">
+                <h2>There's three things we use the community for:</h2>
+                <div class="col-md-4 col-sm-12">
+                    <div class="icons"><i class="fa fa-book"></i></div>
+                    <div id="words">
+                        <h3>sharing</h3>
+                        <p>Sharing of knowledge is a big part of the community. Through our <a href="http://bit.ly/datcodeslack">Slack group</a> discussions, our workshops, or simply adding #DatCode to a tweet, there's a place for you to ask questions or share what you know. We're open to beginners and experts alike.</p>
+                    </div>
                 </div>
-            </div>
-            <div id="collab" class="container pillar-section">
-                <div id="photo" class="col-md-12"></div>
-                <div id="words" class="col-md-12">
-                    <h1>.collaborate()</h1>
-                    <h3>If you think you have a pretty cool idea, let it be known and share it with the community. If other coders think so too, hack it out, maybe even set up a hackathon!<br><br>You could find your next project team here, and we want you to. Go forth and code.</h3>
-                    <i class="fa fa-group fa-5x"></i>
+                <div class="col-md-4 col-sm-12">
+                    <div class="icons"><i class="fa fa-comments"></i></div>
+                    <div id="words">
+                        <h3>conversation</h3>
+                        <p>If you have questions about code - or anything, really - Chop it up amongst the community in our <a href="http://bit.ly/datcodeslack">Slack group</a>, or come hang out at a social event in your area. Whatever you want to talk about, it's open for discussion. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="icons"><i class="fa fa-group"></i></div>
+                    <div id="words">
+                        <h3>collaboration</h3>
+                        <p>If you think you have a pretty cool idea, let it be known and share it with the community. If other coders think so too, hack it out, maybe even set up a hackathon!</p>
+                        <p>You could find your next project team here, and we want you to. Go forth and code.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="join" class="container">
-            <div id="words" class="col-md-12">
-            <h2>Join in the community any time you'd like. <br>Get an invite to our <a href="http://bit.ly/datcodeslack">Slack group</a><br> or just throw the hashtag #DatCode on your Twitter or Facebook post.</h2>
-            <h2>We'll see you soon!</h2>
+        <div id="join" class="join-section">
+            <div class="img"></div>
+            <div class="container">
+                <div id="words" class="words col-md-12">
+                    <h3><p>You can join the DatCode community any time you'd like.</p>
+                        <p>Get an invite to our <a href="http://bit.ly/datcodeslack">Slack group</a>, or just throw the hashtag on your Twitter or Facebook post.</p></h3>
+                    <h2>We'll see you soon!</h2>
+                </div>
             </div>
         </div>
         
-        <footer class="container">
-            
+        <footer>
+            <div class="container">
+                <p>DatCode is a <a href="http://blacklightenergy.co" target="_blank">BLACKLIGHT</a> project<br>
+                This website was built by the community. You can check out the repo on <a href="https://github.com/gitdatcode/gitdatcode.github.io">GitHub</a>.</p>
+            </div>
         </footer>
     </body>
 </html>

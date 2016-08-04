@@ -1,83 +1,238 @@
+@font-face{
+    font-family: "SegoeUI";
+    src: url("../fonts/segoeuil.ttf");
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: "SegoeUI";
+    src: url("../fonts/segoeuib.ttf");
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: "SegoeUI";
+    src: url("../fonts/segoeui.ttf");
+    font-weight: 400;
+}
+
 body{
     background-color: #232323;
     color: white;
+    
+    font-family: 'SegoeUI', sans-serif;
+    
+     h1, h2{
+        font-weight: 200;
+    }
+    
+    a{
+        color: #b33265;
+    }
+    
+    a:hover{
+        color: #FF6347;
+    }
+    
 }
 
 .nav{
-    color: white;
-    font-size: 1.25em;
-}
-
-#share-link{
-    color: #9F064F;
-}
-
-#collab-link{
-    color: #6A4CB4;
-}
-
-#converse-link{
-    color: #f2d64b;
-}
-
-#join-link{
-    color: #69bf8e;
+    font-size: 1.15em;
+    img{
+        height: 30px;
+    }
 }
 
 .intro{
-    padding: 0;
     height: 100vh;
+    
+    .container{
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0, 0.5);
+        display: flex;
+        align-items: center;
+        h1{
+            margin: 0;
+            font-size: 6em;
+            
+            text-decoration: underline;
+            text-decoration-color: #0EE8E4;
+            
+            @media screen and (max-width: 768px)
+            {
+                font-size: 4em;
+            }
+            
+            @media screen and (max-width: 414px)
+            {
+                font-size: 3em;
+            }
+        }
+    }
+    
     background-image: url("../images/head.jpg");
     background-size: 100% auto;
     
     @media screen and (max-width: 1467px )
- {
-        background-image: url("../images/head.jpg");
+    {
          background-size: auto 100%;
          background-position: center;
      }
     
-    .mission{
-        height: 100vh;
-        background: rgba(0,0,0, 0.5);
-        
-        h1{
-        margin: auto 0;
-        padding: 20% 0 20% 30px;
-        }
-    }
-
 }
 
-.pillar-section{
-    height: 100vh;
-    padding: 70px 0;
+.mission{
+
+        text-align: center;
+        height: 40vh;
+        background-color: white;
+        color: #232323;
+    
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+            h1{
+                margin: 0 15%;
+                
+                @media screen and (max-width: 768px )
+                {
+                    font-size: 2em;
+                }
+                
+                @media screen and (max-width: 414px )
+                {
+                    font-size: 1.15em;
+                }
+            }
+
+    }
     
 }
 
-   i{
-       width: 100%;
+.pillars-section{
+    width: 100%;
+    background-color: white;
+    color: #232323;
+    
+    .img{
+        width: 100%;
+        height: 60vh;
+        background-image: url("../images/collab.jpg");
+        background-size: 100% auto;
+        background-position: center;
+        
+        @media screen and (max-width: 768px )
+        {
+             height: 30vh;
+         }
+        
+    }
+    
+    .pillars{
+        height: 100%;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        
+        h2{
+            text-align: center;
+            
+            @media screen and (max-width: 768px )
+            {
+                font-size: 1.75em;
+            }
+        }
+
+        h3{
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    
+    #words{
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    
+}
+
+.join-section{
+    width: 100%;
+    background-color: white;
+    color: #232323;
+    
+    .img{
+        width: 100%;
+        height: 60vh;
+        background-image: url("../images/converse.jpg");
+        background-size: 100% auto;
+        background-position: center;
+        
+        @media screen and (max-width: 768px )
+        {
+             height: 30vh;
+         }
+        
+    }
+    
+    .container{
+        padding: 20px;
+        height: 30vh;
+        text-align: center;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        h2{
+            @media screen and (max-width: 414px )
+                {
+                    font-size: 1.5em;
+                }
+        }
+        h3{
+            margin: 0;
+            
+            @media screen and (max-width: 768px )
+                {
+                    font-size: 1.5em;
+                }
+            
+            @media screen and (max-width: 414px )
+                {
+                    font-size: 1em;
+                }
+        }
+    }
+    
+}
+
+.icons{
+    font-size: 3em;
+    
+    i{
+        width: 100%;
         padding: 30px;
         text-align: center;
     }
+}
 
 #words{
     padding: 0 20%;
 }
 
-#join{
+footer{
+    padding: 15px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
     
-    height: 60vh;
-}
-
-#join-btn{
-    button{
-        margin: 0;
-    }
-}
-
-.photo{ 
-    height: 40%;
-    background-image: url("../images/share.jpg");
-    background-color: transparent;
+    @media screen and (max-width: 414px )
+                {
+                    font-size: 0.75em;
+                }
 }

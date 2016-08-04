@@ -16,7 +16,7 @@ We'll keep a running list of features we'd like to add to the site.
 - [ ] newsletter sign-up (tentative; should we decide to make one)
 - [ ] ticker for number of Slack members, #DatCode mentions on Twitter and Facebook
 
-Components (as of v1.0):
+### components (as of v1.0):
 * [Bootstrap](http://www.getbootstrap.com)
 * [FontAwesome](http://www.fontawesome.io) for the icons
 * [JQuery](http://www.jquery.org) (Bootstrap dependency for navbar collapse)

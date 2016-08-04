@@ -25,10 +25,9 @@ We'll keep a running list of features we'd like to add to the site.
 
 ### version 1.0
 This is the initial version. Just a one page site, divied up into a "Why?", "What?" and "How?"
-
-The "Why?" - why are we doing this?
-The "What?" - okay so what are y'all doing?
-The "How?" - aite I'm interested, how do I join?
+* The "Why?" - why are we doing this?
+* The "What?" - okay so what are y'all doing?
+* The "How?" - aite I'm interested, how do I join?
 
 Pretty simple stuff. We can expand as it gets larger and parts start moving.
    

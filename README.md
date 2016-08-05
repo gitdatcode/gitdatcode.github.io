@@ -21,7 +21,7 @@ We'll keep a running list of features we'd like to add to the site.
 * [FontAwesome](http://www.fontawesome.io) for the icons
 * [JQuery](http://www.jquery.org) (Bootstrap dependency for navbar collapse)
 * [Less](http://www.lesscss.org) because using LESS for CSS is so much better
-* script.js has a script for the in-page links (scrolling to the section on the page) 
+* script.js has a script for the in-page links (scrolling to the section on the page) and initializing Bootstrap tooltips 
 
 ### version 1.0
 This is the initial version. Just a one page site, divied up into a "Why?", "What?" and "How?"

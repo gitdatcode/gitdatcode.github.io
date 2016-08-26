@@ -165,12 +165,22 @@ body{
     
     .container{
         padding: 20px;
-        height: 30vh;
+        min-height: 60vh;
         text-align: center;
         
         display: flex;
         align-items: center;
         justify-content: center;
+
+        #signup
+        {
+            text-align: left;
+            .indicates-required
+            {
+              color: red;
+              font-style: italic;
+            }
+        }
         
         h2{
             @media screen and (max-width: 414px )

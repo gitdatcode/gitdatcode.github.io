@@ -13,8 +13,9 @@ A more thorough set of coding guidelines soon come. For starters:
 ### new features
 We'll keep a running list of features we'd like to add to the site.
 - [ ] calendar (to be used for events)
-- [ ] newsletter sign-up (tentative; should we decide to make one)
+- [x] newsletter sign-up (tentative; should we decide to make one)
 - [ ] ticker for number of Slack members, #DatCode mentions on Twitter and Facebook
+- [ ] A "coding journey map" for newbies. (currently in planning stages)
 
 ### components (as of v1.0):
 * [Bootstrap](http://www.getbootstrap.com)
@@ -22,6 +23,9 @@ We'll keep a running list of features we'd like to add to the site.
 * [JQuery](http://www.jquery.org) (Bootstrap dependency for navbar collapse)
 * [Less](http://www.lesscss.org) because using LESS for CSS is so much better
 * script.js has a script for the in-page links (scrolling to the section on the page) and initializing Bootstrap tooltips 
+
+### version 1.1
+Added sign-up form; couple of datapoints to get an idea of where people in the community are on their coding journey. Also adds them to the newsletter list.
 
 ### version 1.0
 This is the initial version. Just a one page site, divied up into a "Why?", "What?" and "How?"

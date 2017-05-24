@@ -27,33 +27,27 @@ $(document).ready( () => {
   })
 
   //create object for POST to dobot
-  let dobot = {};
+  let dobot = {
+    'event': {
+      'type': "signup"
+    }
+  };
+
   let subscribe_button = document.getElementById("mc-embedded-subscribe");
 
   subscribe_button.addEventListener( 'click', () => {
     //get the dobot values from the form
-    dobot.first_name = document.getElementById("mce-FNAME").value;
-    dobot.last_name = document.getElementById("mce-LNAME").value;
-    dobot.email = document.getElementById("mce-EMAIL").value;
-  
+    dobot.event.first_name = document.getElementById("mce-FNAME").value;
+    dobot.event.last_name = document.getElementById("mce-LNAME").value;
+    dobot.event.email = document.getElementById("mce-EMAIL").value;
+
     //POST to the dobot app
-    sa.post('http://dobot.datcode.io/event/')
+    sa.post('http://dobot.datcode.io/event')
       .set('Content-Type', 'application/json')
-      .send(JSON.stringify({
-        'token': vars.SLACK_API_TOKEN,
-        'event': {
-          'type': 'signup',
-          'first_name': dobot.first_name,
-          'last_name': dobot.last_name,
-          'email': dobot.email
-        }
-      }))
+      .send(JSON.stringify(dobot))
       .end( (err, res) => {
         console.log('error', err);
         console.log(res);
     });
   });
 });
-
-
-

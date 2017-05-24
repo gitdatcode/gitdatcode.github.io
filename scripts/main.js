@@ -42,7 +42,7 @@ $(document).ready( () => {
     dobot.event.email = document.getElementById("mce-EMAIL").value;
 
     //POST to the dobot app
-    sa.post('http://dobot.datcode.io/event')
+    sa.post('http://45.55.90.231/8921')
       .set('Content-Type', 'application/json')
       .send(JSON.stringify(dobot))
       .end( (err, res) => {

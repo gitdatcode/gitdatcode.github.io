@@ -43,7 +43,7 @@ $(document).ready( () => {
 
     //POST to the dobot app
     sa.post('http://45.55.90.231:8921')
-      .set('Content-Type', 'application/json')
+      .set({'Access-Control-Request-Method': 'POST', 'Access-Control-Request-Headers': 'Content-Type', 'Content-Type': 'application/json'})
       .send(JSON.stringify(dobot))
       .end( (err, res) => {
         console.log('error', err);

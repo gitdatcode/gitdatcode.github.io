@@ -48,7 +48,7 @@ $(document).ready( () => {
       .send(JSON.stringify(dobot))
       .end( (err, res) => {
         console.log('error', err);
-        console.log(res);s
+        console.log(res);
     });
   });
 });

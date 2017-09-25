@@ -1,0 +1,119 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/09/2017 10:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-design:before { content: "\f100"; }
+.flaticon-002-cutter:before { content: "\f101"; }
+.flaticon-003-visible:before { content: "\f102"; }
+.flaticon-004-target:before { content: "\f103"; }
+.flaticon-005-sketching:before { content: "\f104"; }
+.flaticon-006-printer:before { content: "\f105"; }
+.flaticon-007-click:before { content: "\f106"; }
+.flaticon-008-brainstorming:before { content: "\f107"; }
+.flaticon-009-lightbulb:before { content: "\f108"; }
+.flaticon-010-discussion:before { content: "\f109"; }
+.flaticon-011-eraser:before { content: "\f10a"; }
+.flaticon-012-research:before { content: "\f10b"; }
+.flaticon-013-music:before { content: "\f10c"; }
+.flaticon-014-code:before { content: "\f10d"; }
+.flaticon-015-layout:before { content: "\f10e"; }
+.flaticon-016-floppy-disk:before { content: "\f10f"; }
+.flaticon-017-photo:before { content: "\f110"; }
+.flaticon-018-canvas:before { content: "\f111"; }
+.flaticon-019-layers:before { content: "\f112"; }
+.flaticon-020-crayon:before { content: "\f113"; }
+.flaticon-021-desk-lamp:before { content: "\f114"; }
+.flaticon-022-font:before { content: "\f115"; }
+.flaticon-023-selection:before { content: "\f116"; }
+.flaticon-024-object:before { content: "\f117"; }
+.flaticon-025-pen-tool:before { content: "\f118"; }
+.flaticon-026-diamond:before { content: "\f119"; }
+.flaticon-027-graphic-tablet:before { content: "\f11a"; }
+.flaticon-028-laptop:before { content: "\f11b"; }
+.flaticon-029-pc:before { content: "\f11c"; }
+.flaticon-030-plant:before { content: "\f11d"; }
+.flaticon-031-brush:before { content: "\f11e"; }
+.flaticon-032-coffee:before { content: "\f11f"; }
+.flaticon-033-flask:before { content: "\f120"; }
+.flaticon-034-camera:before { content: "\f121"; }
+.flaticon-035-ruler:before { content: "\f122"; }
+.flaticon-036-book:before { content: "\f123"; }
+.flaticon-037-pen:before { content: "\f124"; }
+.flaticon-038-pencil:before { content: "\f125"; }
+.flaticon-039-palette:before { content: "\f126"; }
+.flaticon-040-rgb:before { content: "\f127"; }
+    
+    $font-Flaticon-001-design: "\f100";
+    $font-Flaticon-002-cutter: "\f101";
+    $font-Flaticon-003-visible: "\f102";
+    $font-Flaticon-004-target: "\f103";
+    $font-Flaticon-005-sketching: "\f104";
+    $font-Flaticon-006-printer: "\f105";
+    $font-Flaticon-007-click: "\f106";
+    $font-Flaticon-008-brainstorming: "\f107";
+    $font-Flaticon-009-lightbulb: "\f108";
+    $font-Flaticon-010-discussion: "\f109";
+    $font-Flaticon-011-eraser: "\f10a";
+    $font-Flaticon-012-research: "\f10b";
+    $font-Flaticon-013-music: "\f10c";
+    $font-Flaticon-014-code: "\f10d";
+    $font-Flaticon-015-layout: "\f10e";
+    $font-Flaticon-016-floppy-disk: "\f10f";
+    $font-Flaticon-017-photo: "\f110";
+    $font-Flaticon-018-canvas: "\f111";
+    $font-Flaticon-019-layers: "\f112";
+    $font-Flaticon-020-crayon: "\f113";
+    $font-Flaticon-021-desk-lamp: "\f114";
+    $font-Flaticon-022-font: "\f115";
+    $font-Flaticon-023-selection: "\f116";
+    $font-Flaticon-024-object: "\f117";
+    $font-Flaticon-025-pen-tool: "\f118";
+    $font-Flaticon-026-diamond: "\f119";
+    $font-Flaticon-027-graphic-tablet: "\f11a";
+    $font-Flaticon-028-laptop: "\f11b";
+    $font-Flaticon-029-pc: "\f11c";
+    $font-Flaticon-030-plant: "\f11d";
+    $font-Flaticon-031-brush: "\f11e";
+    $font-Flaticon-032-coffee: "\f11f";
+    $font-Flaticon-033-flask: "\f120";
+    $font-Flaticon-034-camera: "\f121";
+    $font-Flaticon-035-ruler: "\f122";
+    $font-Flaticon-036-book: "\f123";
+    $font-Flaticon-037-pen: "\f124";
+    $font-Flaticon-038-pencil: "\f125";
+    $font-Flaticon-039-palette: "\f126";
+    $font-Flaticon-040-rgb: "\f127";
